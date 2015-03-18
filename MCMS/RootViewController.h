@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  MCMS
 //
 //  Created by Sherrie Jones on 3/17/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
+@property NSMutableArray *creatures;
 
 @end
-
