@@ -10,9 +10,14 @@
 
 @interface MagicalCreature : NSObject
 
-@property NSString *fullname;
-@property NSString *detailItem;
+@property NSString *name;
+@property NSString *descriptionItem;
+@property NSString *imageName;
+@property NSMutableArray *accessories;
 
-- (instancetype)initWithFullName:(NSString *)name andWithDetail:(NSString *)detailItem;
+- (instancetype)initWithName:(NSString *)name
+                  andDescription:(NSString *)descriptionItem
+                    andImageName:(NSString *)imageName
+                  andAccessories:(NSMutableArray *)accessories;
 
 @end
